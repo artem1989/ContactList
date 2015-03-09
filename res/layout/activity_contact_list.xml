@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    
+    <ImageButton
+        android:id="@+id/add_contact"
+        android:src="@drawable/selector_add_subject"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="20dp"
+        android:text="Add contact" />
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_list"
+        android:layout_below="@id/add_contact"
+        android:listSelector="#e5e5e5"
+        android:cacheColorHint="#000000"
+        />
+
+</RelativeLayout>
